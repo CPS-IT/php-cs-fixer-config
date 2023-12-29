@@ -28,7 +28,7 @@ use PhpCsFixer\Config;
 use PHPUnit\Framework;
 
 /**
- * DefaultRulesetTest
+ * DefaultRulesetTest.
  *
  * @author Elias Häußler <e.haeussler@familie-redlich.de>
  * @license GPL-3.0-or-later
