@@ -13,8 +13,8 @@ all steps below.
 
 ```bash
 # Clone repository
-git clone https://github.com/CPS-IT/frontend-asset-handler.git
-cd frontend-asset-handler
+git clone https://github.com/CPS-IT/php-cs-fixer-config.git
+cd php-cs-fixer-config
 
 # Install dependencies
 composer install
