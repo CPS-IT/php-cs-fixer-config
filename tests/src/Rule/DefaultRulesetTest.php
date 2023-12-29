@@ -28,7 +28,7 @@ use PhpCsFixer\Config;
 use PHPUnit\Framework;
 
 /**
- * DefaultRulesetTest
+ * DefaultRulesetTest.
  *
  * @author Elias Häußler <e.haeussler@familie-redlich.de>
  * @license GPL-3.0-or-later
@@ -57,13 +57,13 @@ final class DefaultRulesetTest extends Framework\TestCase
     public function applyMergesRulesFromRulesetWithRulesFromConfigObject(): void
     {
         $this->config->setRules([
-            '@Symfony' => true,
+            '@PSR12' => true,
         ]);
 
         $this->subject->apply($this->config, true);
 
         $expected = $this->subject->getRules();
-        $expected['@Symfony'] = true;
+        $expected['@PSR12'] = true;
 
         self::assertEquals($expected, $this->config->getRules());
     }
