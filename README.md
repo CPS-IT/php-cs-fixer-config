@@ -20,7 +20,7 @@ targeting different use cases.
 [![Packagist Downloads](https://img.shields.io/packagist/dt/cpsit/php-cs-fixer-config?color=brightgreen)](https://packagist.org/packages/cpsit/php-cs-fixer-config)
 
 ```bash
-composer require cpsit/php-cs-fixer-config
+composer require --dev cpsit/php-cs-fixer-config
 ```
 
 ## ⚡ Usage
