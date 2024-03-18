@@ -2,7 +2,7 @@
 
 # PHP-CS-Fixer config
 
-[![Coverage](https://img.shields.io/codecov/c/github/CPS-IT/php-cs-fixer-config?logo=codecov&token=0Op9tiYwAe)](https://codecov.io/gh/CPS-IT/php-cs-fixer-config)
+[![Coverage](https://img.shields.io/coverallsCoverage/github/CPS-IT/php-cs-fixer-config?logo=coveralls)](https://coveralls.io/github/CPS-IT/php-cs-fixer-config)
 [![Maintainability](https://img.shields.io/codeclimate/maintainability/CPS-IT/php-cs-fixer-config?logo=codeclimate)](https://codeclimate.com/github/CPS-IT/php-cs-fixer-config/maintainability)
 [![CGL](https://img.shields.io/github/actions/workflow/status/CPS-IT/php-cs-fixer-config/cgl.yaml?label=cgl&logo=github)](https://github.com/CPS-IT/php-cs-fixer-config/actions/workflows/cgl.yaml)
 [![Tests](https://img.shields.io/github/actions/workflow/status/CPS-IT/php-cs-fixer-config/tests.yaml?label=tests&logo=github)](https://github.com/CPS-IT/php-cs-fixer-config/actions/workflows/tests.yaml)
