@@ -66,6 +66,7 @@ final class DefaultRuleset implements Ruleset
     public function apply(Config $config, bool $merge = false): void
     {
         if ($merge) {
+            /** @var array<string, array<string, mixed>|bool> $rules */
             $rules = array_replace_recursive(
                 $config->getRules(),
                 $this->getRules(),
