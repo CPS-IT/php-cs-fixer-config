@@ -28,6 +28,6 @@ return RectorConfig::configure()
         __DIR__.'/src',
         __DIR__.'/tests',
     ])
-    ->withPhpSets(php81: true)
+    ->withPhpSets(php82: true)
     ->withComposerBased(phpunit: true)
 ;
