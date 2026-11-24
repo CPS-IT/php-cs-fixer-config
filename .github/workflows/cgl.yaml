@@ -21,8 +21,7 @@ jobs:
         with:
           # We use the minimum supported PHP version
           php-version: 8.2
-          tools: composer:v2, composer-require-checker, composer-unused, cs2pr
-          coverage: none
+          tools: composer:v2, cs2pr
 
       # Validation
       - name: Validate composer.json
@@ -32,11 +31,9 @@ jobs:
       - name: Install Composer dependencies
         uses: ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda # 4.0.0
 
-      # Check Composer dependencies
-      - name: Check dependencies
-        run: composer-require-checker check
-      - name: Check for unused dependencies
-        run: composer-unused
+      # Analyze
+      - name: Analyze dependencies
+        run: composer analyze:dependencies
 
       # Linting
       - name: Lint composer.json
